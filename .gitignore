@@ -1,0 +1,6 @@
+vendor/
+.idea/
+build/
+test.log
+test.log.*
+log/

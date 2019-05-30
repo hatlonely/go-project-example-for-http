@@ -1,0 +1,19 @@
+{
+    "service": {
+        "port": ":6060"
+    },
+    "logger": {
+        "infoLog": {
+            "filename": "log/gohttp.info",
+            "maxAge": "24h"
+        },
+        "warnLog": {
+            "filename": "log/gohttp.warn",
+            "maxAge": "24h"
+        },
+        "accessLog": {
+            "filename": "log/gohttp.access",
+            "maxAge": "24h"
+        }
+    }
+}
