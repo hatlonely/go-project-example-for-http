@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	"github.com/hatlonely/go-http-project-example/internal/gohttp"
-	"github.com/hatlonely/go-http-project-example/internal/logger"
+	"github.com/hatlonely/go-project-example-for-http/internal/gohttp"
+	"github.com/hatlonely/go-project-example-for-http/internal/logger"
 	"github.com/spf13/viper"
 	"os"
 )
