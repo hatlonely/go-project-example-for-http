@@ -4,7 +4,7 @@ export PATH:=${PATH}:${GOPATH}/bin:$(shell pwd)/third/go/bin:$(shell pwd)/third/
 .PHONY: all
 all: third vendor build test stat
 
-build: cmd/*/*.go internal/*/*.go pkg/*/*.go scripts/version.sh Makefile vendor
+build: cmd/*/*.go internal/*/*.go scripts/version.sh Makefile vendor
 	@echo "compile"
 	@go build -ldflags "-X 'main.AppVersion=`sh scripts/version.sh`'" cmd/gohttp/main.go && \
 	mkdir -p build/gohttp/bin && mv main build/gohttp/bin/gohttp && \
